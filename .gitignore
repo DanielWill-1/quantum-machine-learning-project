@@ -1,0 +1,104 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+*.code-workspace
+
+# =========================
+# Datasets
+# =========================
+
+# MNIST / TensorFlow Datasets
+mnist/
+data/
+datasets/
+
+# =========================
+# ML outputs
+# =========================
+
+checkpoints/
+models/
+weights/
+runs/
+logs/
+wandb/
+
+# TensorBoard
+tensorboard/
+
+# =========================
+# Generated files
+# =========================
+
+*.log
+*.tmp
+*.temp
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# OS files
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =========================
+# Python tooling
+# =========================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Misc
+# =========================
+
+*.bak
+*.swp
